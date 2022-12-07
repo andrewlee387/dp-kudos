@@ -1,0 +1,275 @@
+[07-Dec-2022 21:50:57 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:50:57 UTC] PHP Stack trace:
+[07-Dec-2022 21:50:57 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 21:50:57 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 21:50:57 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 21:50:57 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:50:57 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 21:50:58 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:50:58 UTC] PHP Stack trace:
+[07-Dec-2022 21:50:58 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/themes.php:0
+[07-Dec-2022 21:50:58 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/themes.php:10
+[07-Dec-2022 21:50:58 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-admin/admin.php:34
+[07-Dec-2022 21:50:58 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:50:58 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 21:50:58 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:50:58 UTC] PHP Stack trace:
+[07-Dec-2022 21:50:58 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 21:50:58 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 21:50:58 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 21:50:58 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:50:58 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 21:51:01 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:51:01 UTC] PHP Stack trace:
+[07-Dec-2022 21:51:01 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 21:51:01 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 21:51:01 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 21:51:01 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:51:01 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 21:51:04 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:51:04 UTC] PHP Stack trace:
+[07-Dec-2022 21:51:04 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 21:51:04 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 21:51:04 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 21:51:04 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:51:04 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 21:59:20 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:59:20 UTC] PHP Stack trace:
+[07-Dec-2022 21:59:20 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 21:59:20 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 21:59:20 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 21:59:20 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:59:20 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 21:59:23 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 21:59:23 UTC] PHP Stack trace:
+[07-Dec-2022 21:59:23 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 21:59:23 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 21:59:23 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 21:59:23 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 21:59:23 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:17:55 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:17:55 UTC] PHP Stack trace:
+[07-Dec-2022 23:17:55 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:17:55 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:17:55 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:17:55 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:17:55 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:17:57 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:17:57 UTC] PHP Stack trace:
+[07-Dec-2022 23:17:57 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:17:57 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:17:57 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:17:57 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:17:57 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:17:58 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:17:58 UTC] PHP Stack trace:
+[07-Dec-2022 23:17:58 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:17:58 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:17:58 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:17:58 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:17:58 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:17:59 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:17:59 UTC] PHP Stack trace:
+[07-Dec-2022 23:17:59 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:17:59 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:17:59 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:17:59 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:17:59 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:17:59 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:17:59 UTC] PHP Stack trace:
+[07-Dec-2022 23:17:59 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-cron.php:0
+[07-Dec-2022 23:17:59 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-cron.php:46
+[07-Dec-2022 23:17:59 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:17:59 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:17:59 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:17:59 UTC] PHP Stack trace:
+[07-Dec-2022 23:17:59 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-cron.php:0
+[07-Dec-2022 23:17:59 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-cron.php:46
+[07-Dec-2022 23:17:59 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:17:59 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:18:02 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:18:02 UTC] PHP Stack trace:
+[07-Dec-2022 23:18:02 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:18:02 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:18:02 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:18:02 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:18:02 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:18:05 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:18:05 UTC] PHP Stack trace:
+[07-Dec-2022 23:18:05 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:18:05 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:18:05 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:18:05 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:18:05 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:18:08 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:18:08 UTC] PHP Stack trace:
+[07-Dec-2022 23:18:08 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:18:08 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:18:08 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:18:08 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:18:08 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:18:13 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:18:13 UTC] PHP Stack trace:
+[07-Dec-2022 23:18:13 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-cron.php:0
+[07-Dec-2022 23:18:13 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-cron.php:46
+[07-Dec-2022 23:18:13 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:18:13 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:20:24 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:20:24 UTC] PHP Stack trace:
+[07-Dec-2022 23:20:24 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:20:24 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:20:24 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:20:24 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:20:24 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:20:24 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:20:24 UTC] PHP Stack trace:
+[07-Dec-2022 23:20:24 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:20:24 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:20:24 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:20:24 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:20:24 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:20:40 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:20:40 UTC] PHP Stack trace:
+[07-Dec-2022 23:20:40 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:20:40 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:20:40 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:20:40 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:20:40 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:20:40 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 99
+[07-Dec-2022 23:20:40 UTC] PHP Stack trace:
+[07-Dec-2022 23:20:40 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:20:40 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:20:40 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:20:40 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:20:40 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:21:44 UTC] PHP Notice:  Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /www/kinsta/public/dp-kudos/wp-includes/functions.php on line 5835
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:21:44 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:21:44 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:21:44 UTC] PHP   6. include() /www/kinsta/public/dp-kudos/wp-settings.php:585
+[07-Dec-2022 23:21:44 UTC] PHP   7. register_sidebar($args = ['before_widget' => '<li id="%1$s" class="widget %2$s">', 'after_widget' => '</li>', 'before_title' => '<h2 class="widgettitle">', 'after_title' => '</h2>']) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php:4
+[07-Dec-2022 23:21:44 UTC] PHP   8. _doing_it_wrong($function = 'register_sidebar', $message = 'No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content.', $version = '4.2.0') /www/kinsta/public/dp-kudos/wp-includes/widgets.php:302
+[07-Dec-2022 23:21:44 UTC] PHP   9. trigger_error($message = 'Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.)', $error_level = 1024) /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835
+[07-Dec-2022 23:21:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 3
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:44 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:44 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:1
+[07-Dec-2022 23:21:44 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:48
+[07-Dec-2022 23:21:44 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:44 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:44 UTC] PHP   9. session_start() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php:3
+[07-Dec-2022 23:21:44 UTC] PHP Notice:  Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /www/kinsta/public/dp-kudos/wp-includes/functions.php on line 5835
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-cron.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-cron.php:46
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:21:44 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:21:44 UTC] PHP   5. include() /www/kinsta/public/dp-kudos/wp-settings.php:585
+[07-Dec-2022 23:21:44 UTC] PHP   6. register_sidebar($args = ['before_widget' => '<li id="%1$s" class="widget %2$s">', 'after_widget' => '</li>', 'before_title' => '<h2 class="widgettitle">', 'after_title' => '</h2>']) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php:4
+[07-Dec-2022 23:21:44 UTC] PHP   7. _doing_it_wrong($function = 'register_sidebar', $message = 'No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content.', $version = '4.2.0') /www/kinsta/public/dp-kudos/wp-includes/widgets.php:302
+[07-Dec-2022 23:21:44 UTC] PHP   8. trigger_error($message = 'Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.)', $error_level = 1024) /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835
+[07-Dec-2022 23:21:44 UTC] PHP Warning:  Undefined variable $_SESSION in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 7
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:44 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:44 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:1
+[07-Dec-2022 23:21:44 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:48
+[07-Dec-2022 23:21:44 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:44 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:44 UTC] PHP   9. safeParseLogin() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php:71
+[07-Dec-2022 23:21:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 7
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:44 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:44 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:1
+[07-Dec-2022 23:21:44 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:48
+[07-Dec-2022 23:21:44 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:44 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:44 UTC] PHP   9. safeParseLogin() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php:71
+[07-Dec-2022 23:21:44 UTC] PHP Warning:  Undefined array key "REMOTE_USER" in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 14
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:44 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:44 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:1
+[07-Dec-2022 23:21:44 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:48
+[07-Dec-2022 23:21:44 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:44 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:44 UTC] PHP   9. safeParseLogin() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php:71
+[07-Dec-2022 23:21:44 UTC] PHP Warning:  Undefined array key "REMOTE_USER" in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 18
+[07-Dec-2022 23:21:44 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:44 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:44 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:44 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:44 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:44 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:1
+[07-Dec-2022 23:21:44 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:48
+[07-Dec-2022 23:21:44 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:44 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:44 UTC] PHP   9. safeParseLogin() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php:71
+[07-Dec-2022 23:21:45 UTC] PHP Warning:  Undefined array key "REMOTE_USER" in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 14
+[07-Dec-2022 23:21:45 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:45 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:45 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:45 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:45 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:45 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:43
+[07-Dec-2022 23:21:45 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:92
+[07-Dec-2022 23:21:45 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/footer.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:45 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:45 UTC] PHP   9. safeParseLogin() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/footer.php:10
+[07-Dec-2022 23:21:45 UTC] PHP Warning:  Undefined array key "REMOTE_USER" in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/header.php on line 18
+[07-Dec-2022 23:21:45 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:46 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:46 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:46 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:46 UTC] PHP   4. include() /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:106
+[07-Dec-2022 23:21:46 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/index.php:43
+[07-Dec-2022 23:21:46 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/general-template.php:92
+[07-Dec-2022 23:21:46 UTC] PHP   7. load_template($_template_file = '/www/kinsta/public/dp-kudos/wp-content/themes/intranet/footer.php', $require_once = TRUE, $args = []) /www/kinsta/public/dp-kudos/wp-includes/template.php:718
+[07-Dec-2022 23:21:46 UTC] PHP   8. require_once() /www/kinsta/public/dp-kudos/wp-includes/template.php:783
+[07-Dec-2022 23:21:46 UTC] PHP   9. safeParseLogin() /www/kinsta/public/dp-kudos/wp-content/themes/intranet/footer.php:10
+[07-Dec-2022 23:21:46 UTC] PHP Notice:  Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /www/kinsta/public/dp-kudos/wp-includes/functions.php on line 5835
+[07-Dec-2022 23:21:46 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:46 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:46 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:46 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:21:46 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:21:46 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:21:46 UTC] PHP   6. include() /www/kinsta/public/dp-kudos/wp-settings.php:585
+[07-Dec-2022 23:21:46 UTC] PHP   7. register_sidebar($args = ['before_widget' => '<li id="%1$s" class="widget %2$s">', 'after_widget' => '</li>', 'before_title' => '<h2 class="widgettitle">', 'after_title' => '</h2>']) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php:4
+[07-Dec-2022 23:21:46 UTC] PHP   8. _doing_it_wrong($function = 'register_sidebar', $message = 'No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content.', $version = '4.2.0') /www/kinsta/public/dp-kudos/wp-includes/widgets.php:302
+[07-Dec-2022 23:21:46 UTC] PHP   9. trigger_error($message = 'Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.)', $error_level = 1024) /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835
+[07-Dec-2022 23:21:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/pluggable.php on line 1416
+[07-Dec-2022 23:21:46 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:46 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:46 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:46 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:46 UTC] PHP   4. do_action($hook_name = 'template_redirect') /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:13
+[07-Dec-2022 23:21:46 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:21:46 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:21:46 UTC] PHP   7. redirect_canonical($requested_url = '', $do_redirect = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
+[07-Dec-2022 23:21:46 UTC] PHP   8. wp_redirect($location = 'http://dp-kudos.local/favicon.ico/', $status = 301, $x_redirect_by = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/canonical.php:801
+[07-Dec-2022 23:21:46 UTC] PHP   9. header($header = 'X-Redirect-By: WordPress') /www/kinsta/public/dp-kudos/wp-includes/pluggable.php:1416
+[07-Dec-2022 23:21:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/pluggable.php on line 1419
+[07-Dec-2022 23:21:46 UTC] PHP Stack trace:
+[07-Dec-2022 23:21:46 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:21:46 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:21:46 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:21:46 UTC] PHP   4. do_action($hook_name = 'template_redirect') /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:13
+[07-Dec-2022 23:21:46 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:21:46 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:21:46 UTC] PHP   7. redirect_canonical($requested_url = '', $do_redirect = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
+[07-Dec-2022 23:21:46 UTC] PHP   8. wp_redirect($location = 'http://dp-kudos.local/favicon.ico/', $status = 301, $x_redirect_by = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/canonical.php:801
+[07-Dec-2022 23:21:46 UTC] PHP   9. header($header = 'Location: http://dp-kudos.local/favicon.ico/', $replace = TRUE, $response_code = 301) /www/kinsta/public/dp-kudos/wp-includes/pluggable.php:1419
