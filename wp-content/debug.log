@@ -273,3 +273,92 @@
 [07-Dec-2022 23:21:46 UTC] PHP   7. redirect_canonical($requested_url = '', $do_redirect = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
 [07-Dec-2022 23:21:46 UTC] PHP   8. wp_redirect($location = 'http://dp-kudos.local/favicon.ico/', $status = 301, $x_redirect_by = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/canonical.php:801
 [07-Dec-2022 23:21:46 UTC] PHP   9. header($header = 'Location: http://dp-kudos.local/favicon.ico/', $replace = TRUE, $response_code = 301) /www/kinsta/public/dp-kudos/wp-includes/pluggable.php:1419
+[07-Dec-2022 23:29:09 UTC] PHP Notice:  Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /www/kinsta/public/dp-kudos/wp-includes/functions.php on line 5835
+[07-Dec-2022 23:29:09 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:09 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:09 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:10
+[07-Dec-2022 23:29:09 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-admin/admin.php:34
+[07-Dec-2022 23:29:09 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:29:09 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:29:09 UTC] PHP   6. include() /www/kinsta/public/dp-kudos/wp-settings.php:585
+[07-Dec-2022 23:29:09 UTC] PHP   7. register_sidebar($args = ['before_widget' => '<li id="%1$s" class="widget %2$s">', 'after_widget' => '</li>', 'before_title' => '<h2 class="widgettitle">', 'after_title' => '</h2>']) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php:4
+[07-Dec-2022 23:29:09 UTC] PHP   8. _doing_it_wrong($function = 'register_sidebar', $message = 'No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content.', $version = '4.2.0') /www/kinsta/public/dp-kudos/wp-includes/widgets.php:302
+[07-Dec-2022 23:29:09 UTC] PHP   9. trigger_error($message = 'Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.)', $error_level = 1024) /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835
+[07-Dec-2022 23:29:10 UTC] PHP Warning:  Undefined array key "page" in /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php on line 83
+[07-Dec-2022 23:29:10 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:10 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:10 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:10
+[07-Dec-2022 23:29:10 UTC] PHP   3. require() /www/kinsta/public/dp-kudos/wp-admin/admin.php:158
+[07-Dec-2022 23:29:10 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-admin/menu.php:428
+[07-Dec-2022 23:29:10 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /www/kinsta/public/dp-kudos/wp-admin/includes/menu.php:155
+[07-Dec-2022 23:29:10 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:29:10 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:29:10 UTC] PHP   8. kubrick_add_theme_page('') /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
+[07-Dec-2022 23:29:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-admin/includes/misc.php on line 1416
+[07-Dec-2022 23:29:10 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:10 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:10 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:10
+[07-Dec-2022 23:29:10 UTC] PHP   3. do_action($hook_name = 'admin_init') /www/kinsta/public/dp-kudos/wp-admin/admin.php:175
+[07-Dec-2022 23:29:10 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:29:10 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:29:10 UTC] PHP   6. wp_admin_headers('') /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
+[07-Dec-2022 23:29:10 UTC] PHP   7. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') /www/kinsta/public/dp-kudos/wp-admin/includes/misc.php:1416
+[07-Dec-2022 23:29:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/functions.php on line 6865
+[07-Dec-2022 23:29:10 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:10 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:10 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:10
+[07-Dec-2022 23:29:10 UTC] PHP   3. do_action($hook_name = 'admin_init') /www/kinsta/public/dp-kudos/wp-admin/admin.php:175
+[07-Dec-2022 23:29:10 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:29:10 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:29:10 UTC] PHP   6. send_frame_options_header() /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:306
+[07-Dec-2022 23:29:10 UTC] PHP   7. header($header = 'X-Frame-Options: SAMEORIGIN') /www/kinsta/public/dp-kudos/wp-includes/functions.php:6865
+[07-Dec-2022 23:29:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-admin/admin-header.php on line 9
+[07-Dec-2022 23:29:10 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:10 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:10 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:137
+[07-Dec-2022 23:29:10 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') /www/kinsta/public/dp-kudos/wp-admin/admin-header.php:9
+[07-Dec-2022 23:29:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/option.php on line 1138
+[07-Dec-2022 23:29:10 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:10 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:10 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:137
+[07-Dec-2022 23:29:10 UTC] PHP   3. wp_user_settings() /www/kinsta/public/dp-kudos/wp-admin/admin-header.php:86
+[07-Dec-2022 23:29:10 UTC] PHP   4. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1701991750, $path = '/', $domain = '', $secure = FALSE) /www/kinsta/public/dp-kudos/wp-includes/option.php:1138
+[07-Dec-2022 23:29:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/option.php on line 1139
+[07-Dec-2022 23:29:10 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:10 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/wp-admin/index.php:0
+[07-Dec-2022 23:29:10 UTC] PHP   2. require_once() /www/kinsta/public/dp-kudos/wp-admin/index.php:137
+[07-Dec-2022 23:29:10 UTC] PHP   3. wp_user_settings() /www/kinsta/public/dp-kudos/wp-admin/admin-header.php:86
+[07-Dec-2022 23:29:10 UTC] PHP   4. setcookie($name = 'wp-settings-time-1', $value = 1670455750, $expires_or_options = 1701991750, $path = '/', $domain = '', $secure = FALSE) /www/kinsta/public/dp-kudos/wp-includes/option.php:1139
+[07-Dec-2022 23:29:11 UTC] PHP Notice:  Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /www/kinsta/public/dp-kudos/wp-includes/functions.php on line 5835
+[07-Dec-2022 23:29:11 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:11 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:29:11 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:29:11 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:13
+[07-Dec-2022 23:29:11 UTC] PHP   4. require_once() /www/kinsta/public/dp-kudos/wp-load.php:50
+[07-Dec-2022 23:29:11 UTC] PHP   5. require_once() /www/kinsta/public/dp-kudos/wp-config.php:104
+[07-Dec-2022 23:29:11 UTC] PHP   6. include() /www/kinsta/public/dp-kudos/wp-settings.php:585
+[07-Dec-2022 23:29:11 UTC] PHP   7. register_sidebar($args = ['before_widget' => '<li id="%1$s" class="widget %2$s">', 'after_widget' => '</li>', 'before_title' => '<h2 class="widgettitle">', 'after_title' => '</h2>']) /www/kinsta/public/dp-kudos/wp-content/themes/intranet/functions.php:4
+[07-Dec-2022 23:29:11 UTC] PHP   8. _doing_it_wrong($function = 'register_sidebar', $message = 'No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content.', $version = '4.2.0') /www/kinsta/public/dp-kudos/wp-includes/widgets.php:302
+[07-Dec-2022 23:29:11 UTC] PHP   9. trigger_error($message = 'Function register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.)', $error_level = 1024) /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835
+[07-Dec-2022 23:29:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/pluggable.php on line 1416
+[07-Dec-2022 23:29:12 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:12 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:29:12 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:29:12 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:29:12 UTC] PHP   4. do_action($hook_name = 'template_redirect') /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:13
+[07-Dec-2022 23:29:12 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:29:12 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:29:12 UTC] PHP   7. redirect_canonical($requested_url = '', $do_redirect = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
+[07-Dec-2022 23:29:12 UTC] PHP   8. wp_redirect($location = 'http://dp-kudos.local/favicon.ico/', $status = 301, $x_redirect_by = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/canonical.php:801
+[07-Dec-2022 23:29:12 UTC] PHP   9. header($header = 'X-Redirect-By: WordPress') /www/kinsta/public/dp-kudos/wp-includes/pluggable.php:1416
+[07-Dec-2022 23:29:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /www/kinsta/public/dp-kudos/wp-includes/functions.php:5835) in /www/kinsta/public/dp-kudos/wp-includes/pluggable.php on line 1419
+[07-Dec-2022 23:29:12 UTC] PHP Stack trace:
+[07-Dec-2022 23:29:12 UTC] PHP   1. {main}() /www/kinsta/public/dp-kudos/index.php:0
+[07-Dec-2022 23:29:12 UTC] PHP   2. require() /www/kinsta/public/dp-kudos/index.php:17
+[07-Dec-2022 23:29:12 UTC] PHP   3. require_once() /www/kinsta/public/dp-kudos/wp-blog-header.php:19
+[07-Dec-2022 23:29:12 UTC] PHP   4. do_action($hook_name = 'template_redirect') /www/kinsta/public/dp-kudos/wp-includes/template-loader.php:13
+[07-Dec-2022 23:29:12 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/plugin.php:517
+[07-Dec-2022 23:29:12 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:332
+[07-Dec-2022 23:29:12 UTC] PHP   7. redirect_canonical($requested_url = '', $do_redirect = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/class-wp-hook.php:308
+[07-Dec-2022 23:29:12 UTC] PHP   8. wp_redirect($location = 'http://dp-kudos.local/favicon.ico/', $status = 301, $x_redirect_by = *uninitialized*) /www/kinsta/public/dp-kudos/wp-includes/canonical.php:801
+[07-Dec-2022 23:29:12 UTC] PHP   9. header($header = 'Location: http://dp-kudos.local/favicon.ico/', $replace = TRUE, $response_code = 301) /www/kinsta/public/dp-kudos/wp-includes/pluggable.php:1419
