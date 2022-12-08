@@ -23,17 +23,17 @@ class DPKudos {
         add_action( 'init', array($this, 'init_kudos_cpt_and_page') );
         add_shortcode('link_to_kudos', array($this, 'link_to_kudos_shortcode'));
         add_filter( 'wp_footer', array($this, 'kudos_form' ));
-        
+        add_filter('archive_template', array($this, 'kudos_archive_template' ));
     }
 
     public function deactivate_kudos() {
-        unregister_post_type( 'kudos_cpt' );
+        unregister_post_type( 'kudos-cpt' );
         $to_delete = get_page_by_title('Kudos Board Page')->ID;
         wp_delete_post($to_delete, true);
     }
 
     public function init_kudos_cpt_and_page() {
-        register_post_type( 'kudos_cpt',
+        register_post_type( 'kudos-cpt',
             // CPT Options
             array(
                 'labels' => array(
@@ -41,7 +41,7 @@ class DPKudos {
                     'singular_name' => __( 'Kudo' )
                 ),
                 'public' => true,
-                'has_archive' => true,
+                'has_archive' => 'kudos',
                 'rewrite' => array('slug' => 'kudos'),
                 'show_in_rest' => true,
             )
@@ -63,16 +63,29 @@ class DPKudos {
         return '<a href="'.get_page_link($kudos_page_id).'">View Kudos</a>';
     }
 
+    public function kudos_archive_template($template) {
+        if (is_post_type_archive('kudos-cpt')) {
+            $template = dirname(__FILE__) . '/archive-kudos-cpt.php';
+            $template = locate_template($file_name);
+            if (empty($template)) {
+                // Template not found in theme's folder, use plugin's template as a fallback
+                $template = dirname(__FILE__) . '/archive-kudos-cpt.php';
+            }
+        }
+        return $template;
+    }
+
 
     public function create_new_kudos_post($comment, $recipient) {
         $name = get_user_meta( $recipient, 'first_name', true );
     
         $postId = wp_insert_post(
             array(
-                'post_type' => 'kudos_cpt',
+                'post_type' => 'kudos-cpt',
                 'post_title' => 'Kudos! to: ' . $name,
                 'post_content' =>  $comment,
                 'post_status' => 'publish',
+                'has_archive' => true
             )
         );
     }
