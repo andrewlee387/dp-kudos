@@ -82,9 +82,10 @@ class DPKudos {
         $postId = wp_insert_post(
             array(
                 'post_type' => 'kudos-cpt',
-                'post_title' => 'Kudos! to: ' . $name,
+                'post_title' => 'Kudos! to ' . $name,
                 'post_content' =>  $comment,
                 'post_status' => 'publish',
+                'meta_input' => array("recipient" => $recipient),
                 'has_archive' => true
             )
         );
