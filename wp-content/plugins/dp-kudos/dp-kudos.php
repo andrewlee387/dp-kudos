@@ -94,52 +94,140 @@ class DPKudos {
     public function kudos_form($args = []) {
         ?>
             <style>
-                .kudos {
+                /* @keyframes bounce { 
+                    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+                    40% {transform: translateY(-20px);} 
+                    60% {transform: translateY(-10px);} 
+                } */
+
+                @keyframes bounce { 
+                    0%, 13%, 51% {transform: translateY(0);} 
+                    26% {transform: translateY(-16px);} 
+                    33% {transform: translateY(6px);}
+                    38% {transform: translateY(-8px);} 
+                    43% {transform: translateY(2px);}
+                    47% {transform: translateY(-2px);}
+                }
+
+                @keyframes pulse {
+                    0% {
+                        /* transform: scale(0.95); */
+                        box-shadow: 0 0 0 0 #00297370;
+                    }
+                    
+                    30% {
+                        /* transform: scale(1); */
+                        box-shadow: 0 0 0 10px #00297300;
+                    }
+                    
+                    100% {
+                        /* transform: scale(0.95); */
+                        box-shadow: 0 0 0 0 #00297300;
+                    }
+                }
+                .kudos-cta:hover {
+                    animation: none;
+                    cursor: pointer;
+                }
+                .kudos-cta:hover .kudos-form {
+                    visibility: visible;
+                }
+                .kudos-form {
+                    visibility: hidden;
+                }
+
+                .kudos-cta {
+                    display: flex;
+                    flex-direction: reverse-column;
+                    align-items: center;
+                    background: #002973;
+                    box-shadow: 0 0 0 0 #002973;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    animation: pulse 3s infinite, bounce 3s infinite 1s;
                     position: fixed;
-                    bottom: 100px;
-                    right: 0;
+                    height: 40px;
+                    width: 40px;
+                    bottom: 30px;
+                    right: 30px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                }
+                .kudos-cta .text {
+                    cursor: pointer;
+                }
+                .kudos-form {
+                    position: absolute;
+                    bottom: 20px;
+                    right: -30px;
                     display: flex;
                     flex-direction: column;
                     max-width: 190px;
                     gap: 4px;
+                    border: 30px solid transparent;
+                    /* border-right: 30px solid transparent; */
+
                 }
                 .flex {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                 }
-                .kudos button {
-                    background-color: #FF7E00;
+                .kudos-form select {
+                    height: 24px;
+                }
+                .kudos-form button {
+                    background-color: white;
+                    border: 1px solid #FF7E00;
                     border-radius: 4px;
                     padding: 4px;
                     outline: none;
-                    color: white;
+                    color: #FF7E00;
                     cursor: pointer;
-                    border: none;
                     margin-left: 4px;
                 }
-                .kudos button:hover {
-                    background-color: #E66500;
+                .kudos-form textarea {
+                    padding: 5px;
+                    height: 40px;
+                }
+                .kudos-form button:hover {
+                    background-color: #ffe5cc;
                 }
             </style>
+            <script>
+                window.addEventListener('load', function () {
+                    const kudosCta = document.querySelector(".kudos-cta");
+                    const commentInput = document.querySelector("#comment");
+                    kudosCta.addEventListener('mouseover', () => {
+                        commentInput.focus();
+                    })
+                })
 
-            <form action="" method="POST">
-                <div class="kudos">
-                    <textarea name="comment"></textarea>
-                    <div class="flex">
-                        <?php 
-                        wp_dropdown_users(array(
-                            'show_option_none' => 'Select',
-                            'name' => 'recipient',
-                            'selected' => null
-                        ));
-                        ?>
-                    
-                        <button type="submit">Kudos!</button>
+            </script>
+            <div class="kudos-cta">
+                <div class="text">Kudos!</div>
+                <form action="" method="POST">
+                    <div class="kudos-form">
+                        <textarea id="comment" name="comment"></textarea>
+                        <div class="flex">
+                            <?php 
+                            wp_dropdown_users(array(
+                                'show_option_none' => 'Select',
+                                'name' => 'recipient',
+                                'selected' => null
+                            ));
+                            ?>
+                        
+                            <button type="submit">Send!</button>
+                        </div>
+                        <?php echo do_shortcode('[link_to_kudos]');?>
                     </div>
-                    <?php echo do_shortcode('[link_to_kudos]');?>
-                </div>
-            </form>
+                </form>
+            </div>
+
+
         <?php
         if(isset($_POST['comment']) && isset($_POST['recipient'])) {
             $comment = $_POST['comment'];
