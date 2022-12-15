@@ -65,6 +65,18 @@
 		<div style="margin: 2px; padding: 20px; border: 1px solid gray; max-width: 500px; margin: 5px auto;">
 			<div style="display: flex; align-items: center; gap: 20px;">
 				<?php echo get_avatar( get_post_meta(get_the_ID(), 'recipient', true) , 60 ); ?>
+				<?php if (get_post_meta(get_the_ID(), 'recipient', true) == get_current_user_id()) : ?>
+					<script>
+						window.addEventListener('load', function () {
+							confetti({
+								particleCount: 1440,
+								spread: 200,
+								shapes: ['stars', 'stars', 'stars'],
+								startVelocity: 60
+							});
+						})
+					</script>
+				<?php endif; ?>
 
 				<div>
 					<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
@@ -73,6 +85,8 @@
 						<?php the_content() ?>
 					</div>
 				</div>
+				<?php echo get_the_author_ID() ?>
+				<?php echo get_user_meta( get_the_author_ID(), 'first_name', true ); ?>
 			</div>
 		</div>
 

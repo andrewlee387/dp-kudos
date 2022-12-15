@@ -203,8 +203,16 @@ class DPKudos {
                         commentInput.focus();
                     })
                     sendButton.addEventListener('click', (event) => {
+                        console.log(event.pageX);
+                        console.log(event);
                         if (commentInput.value && recipientDropdown.value > -1) {
-                            confetti();
+                            confetti({
+                                origin: {
+                                    x: event.clientX / window.innerWidth,
+                                    y: event.clientY / window.innerHeight
+                                },
+                                startVelocity: 20
+                            });
                         } else {
                             event.preventDefault();
                         }
