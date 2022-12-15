@@ -1,5 +1,5 @@
+
 <?php get_header(); ?>
-IT WOPRKEDDD
 	<div id="content" class="narrowcolumn">
 <?php is_tag(); ?>
 		<?php if (have_posts()) : ?>
@@ -26,7 +26,41 @@ IT WOPRKEDDD
 			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
 			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
 		</div>
+		<button id="test">hi</button>
+		<script>
+			window.addEventListener('load', function () {
+				// confetti();
 
+				// setTimeout(() => {
+				// 	// do this for 30 seconds
+				// 	var duration = 2 * 1000;
+				// 	var end = Date.now() + duration;
+
+				// 	(function frame() {
+				// 	// launch a few confetti from the left edge
+				// 	confetti({
+				// 		particleCount: 7,
+				// 		angle: 60,
+				// 		spread: 55,
+				// 		origin: { x: 0 }
+				// 	});
+				// 	// and launch a few from the right edge
+				// 	confetti({
+				// 		particleCount: 7,
+				// 		angle: 120,
+				// 		spread: 55,
+				// 		origin: { x: 1 }
+				// 	});
+
+				// 	// keep going until we are out of time
+				// 	if (Date.now() < end) {
+				// 		requestAnimationFrame(frame);
+				// 	}
+				// 	}());
+				// }, 2000);
+			})
+
+		</script>
 		<?php while (have_posts()) : the_post(); ?>
 		<div style="margin: 2px; padding: 20px; border: 1px solid gray; max-width: 500px; margin: 5px auto;">
 			<div style="display: flex; align-items: center; gap: 20px;">

@@ -58,11 +58,6 @@ class DPKudos {
         }
     }
 
-    public function link_to_kudos_shortcode() {
-        $kudos_page_id = get_page_by_title('Kudos Board Page')->ID;
-        return '<a href="'.get_page_link($kudos_page_id).'">View Kudos</a>';
-    }
-
     public function kudos_archive_template($template) {
         if (is_post_type_archive('kudos-cpt')) {
             $template = dirname(__FILE__) . '/archive-kudos-cpt.php';
@@ -196,13 +191,25 @@ class DPKudos {
                     background-color: #ffe5cc;
                 }
             </style>
+            <script src="https://unpkg.com/canvas-confetti@1.5.1/dist/confetti.browser.js"></script>
+
             <script>
                 window.addEventListener('load', function () {
                     const kudosCta = document.querySelector(".kudos-cta");
                     const commentInput = document.querySelector("#comment");
+                    const recipientDropdown = document.querySelector("#recipient");
+                    const sendButton = document.querySelector("#send");
                     kudosCta.addEventListener('mouseover', () => {
                         commentInput.focus();
                     })
+                    sendButton.addEventListener('click', (event) => {
+                        if (commentInput.value && recipientDropdown.value > -1) {
+                            confetti();
+                        } else {
+                            event.preventDefault();
+                        }
+                    })
+
                 })
 
             </script>
@@ -216,13 +223,14 @@ class DPKudos {
                             wp_dropdown_users(array(
                                 'show_option_none' => 'Select',
                                 'name' => 'recipient',
+                                'id' => 'recipient',
                                 'selected' => null
                             ));
                             ?>
                         
-                            <button type="submit">Send!</button>
+                            <button id="send" type="submit">Send!</button>
                         </div>
-                        <?php echo do_shortcode('[link_to_kudos]');?>
+                        <a href="/?post_type=kudos-cpt">View Kudos</a>
                     </div>
                 </form>
             </div>
